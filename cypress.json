@@ -1,0 +1,23 @@
+{
+    "baseUrl": "https://whitelabel.sandbox.array.io/signup?platform=v3",
+    "defaultCommandTimeout": 20000,
+    "env": {
+        "username": "",
+        "password": ""
+    },
+    "pageLoadTimeout": 60000,
+    "retries":2,
+    "screenshotsFolder": "results/screenshots",
+    "videosFolder": "results/videos",
+    "viewportWidth": 1300,
+    "viewportHeight": 1000,
+    "includeShadowDom": true,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "results/data",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+    }
+}

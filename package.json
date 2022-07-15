@@ -1,0 +1,27 @@
+{
+  "name": "array",
+  "version": "1.0.0",
+  "description": "Array test exercise",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "mergeResults": "mochawesome-merge 'results/data/*.json' > results/final.json",
+    "genReport": "marge --reportDir 'results/report' results/final.json",
+    "cy:report": "npm run mergeResults && npm run genReport"
+  },
+  "keywords": [
+    "Cypress",
+    "test-automation",
+    "array"
+  ],
+  "author": "KB",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0",
+    "prettier": "^2.7.1"
+  }
+}
