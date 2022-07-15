@@ -1,6 +1,6 @@
 {
     "baseUrl": "https://whitelabel.sandbox.array.io/signup?platform=v3",
-    "defaultCommandTimeout": 20000,
+    "defaultCommandTimeout": 25000,
     "env": {
         "username": "",
         "password": ""
